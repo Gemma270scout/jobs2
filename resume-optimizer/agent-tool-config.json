@@ -1,0 +1,17 @@
+{
+  "tool_name": "resume-optimizer",
+  "description": "Runs the Resume Optimizer Apps Script Web App on a given resume_text.",
+  "endpoint": "https://script.google.com/macros/s/AKfycbxzNftE3wiQ-4QvH8yKJfqVmLWMKU67Z8D10a7mAXBcK1-Wl85XqGoSSEaRywLHAS9u/exec",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body_template": {
+    "resume_text": "<replace with the candidate's resume text>"
+  },
+  "example_usage": "Run the resume-optimizer tool with the following resume: <paste resume here>",
+  "permissions": {
+    "execute_as": "Me",
+    "access": "Anyone"
+  }
+}
