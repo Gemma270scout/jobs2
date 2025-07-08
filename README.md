@@ -15,8 +15,8 @@ This repository serves as a central hub for collecting and organizing job postin
 
 🚀 How to Use
 	1.	In your AI-agent’s GitHub-repo tool, point at:
-	•	https://raw.githubusercontent.com/<your-user>/resume-optimizer/main/robots.txt
-	•	https://raw.githubusercontent.com/<your-user>/resume-optimizer/main/code.gs
+	•	https://raw.githubusercontent.com/Gemma270scout/resume-optimizer/robots.txt
+	•	https://raw.githubusercontent.com/Gemma270scout/resume-optimizer/code.gs
 	2.	The agent will fetch robots.txt, see Allow: /code.gs, then fetch your code.gs.
 
 ⸻
