@@ -1,28 +1,33 @@
-# 💼 Job Links Hub
+💼 Job Links Hub
 
 This repository serves as a central hub for collecting and organizing job postings across various industries and locations.
 
-## 📌 Quick Links
-- [Latest Tech Jobs](./data/tech-jobs.md)
-- [Remote Roles](./data/remote-jobs.md)
-- [Internships](./data/internships.md)
-- [Government Opportunities](./data/gov-jobs.md)
-- [Resume Tools](./data/resume-tools.md)
+📌 Quick Links
+	•	Latest Tech Jobs
+	•	Remote Roles
+	•	Internships
+	•	Government Opportunities
+	•	Resume Tools
+	•	Resume Optimizer Script (code.gs)
+	•	Crawler Policy (robots.txt)
 
----
+⸻
 
-## 🚀 How to Use
+🚀 How to Use
+	1.	In your AI-agent’s GitHub-repo tool, point at:
+	•	https://raw.githubusercontent.com/<your-user>/resume-optimizer/main/robots.txt
+	•	https://raw.githubusercontent.com/<your-user>/resume-optimizer/main/code.gs
+	2.	The agent will fetch robots.txt, see Allow: /code.gs, then fetch your code.gs.
 
-- Browse by category in the `/data` folder.
-- Submit new jobs via [job_submission_template.md](./.github/job_submission_template.md).
-- PRs welcome! Help others by adding verified job links.
+⸻
 
-## 🛠 Automation Ideas
-- Scrape job boards daily (Indeed, LinkedIn, Hacker News)
-- Auto-validate expired links
-- Tag roles by tech stack, salary, visa status
+🛠 Automation Ideas
+	•	Deploy code.gs as a Google Apps Script Web App.
+	•	Schedule daily scraping of job boards and append new listings to a Google Sheet.
+	•	Auto-validate expired links before they’re shared.
 
----
+⸻
 
-## 📅 Last Updated
-`July 1, 2025`
+📅 Last Updated
+
+July 1, 2025
