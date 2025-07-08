@@ -1,7 +1,7 @@
 {
   "tool_name": "resume-optimizer",
   "description": "Runs the Resume Optimizer Apps Script Web App on a given resume_text.",
-  "endpoint": "https://script.google.com/macros/s/AKfycbxzNftE3wiQ-4QvH8yKJfqVmLWMKU67Z8D10a7mAXBcK1-Wl85XqGoSSEaRywLHAS9u/exec",
+  "endpoint": "https://5fbfc7ae-summer-flower-e253.gemma270scout.workers.dev/",
   "method": "POST",
   "headers": {
     "Content-Type": "application/json"
